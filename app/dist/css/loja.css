@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#fundo-produtos {
+    margin-top: 10vh;
+    width: 70%;
+    background-color: #d2ddef;
+    border-radius: 10px;
+    padding: 2vh 3vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+    margin-bottom: 3vh;
+}
+
+.card-comercio {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 2vh 5vw;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.4);
+    margin-bottom: 3vh;
+}
+
+.card-comercio-foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55vw;
+    margin-bottom: 1.5vh;
+    position: relative;
+}
+
+.card-comercio-foto > img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.tipo {
+    font-size: 12px;
+    margin-bottom: 1vh;
+}
+
+.titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2.5vh;
+}
+
+.preco {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
+
+.botao-comprar {
+    margin: 3vh 2vw 2vh 0;
+    padding: 3vh;
+    background-color: #136CB3;
+    width: 15vw;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+}
+
+.botao-comprar > img {
+    width: 5vw;
+    filter: invert(100%);
+}
+
+
+@media screen and (min-width: 900px) {
+
+    #fundo-produtos {
+        width: 95vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 2vw;
+        row-gap: 2vw;
+        justify-content: center;
+        padding: 2vw;
+    }
+
+    .card-comercio {
+        width: 20vw;
+        margin-bottom: 0;
+    }
+
+    .card-comercio-foto {
+        width: 22vw;
+    }
+
+    .card-comercio-foto > img {
+        width: 70%;
+    }
+
+    .botao-comprar {
+        margin: 2vh 0;
+        padding: 1vh;
+        width: 5vw;
+    }
+
+    .botao-comprar > img {
+        width: 1.5vw;
+    }
+
+    .desc {
+        width: 20vw;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0 1vw;
+    }
+}

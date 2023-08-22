@@ -1,0 +1,100 @@
+{
+    "produtos": [
+        {
+            "index": 1,
+            "titulo": "Snack Petz Gourmet Jerky Strips para Cães Adultos - 100g",
+            "foto": "https://images.petz.com.br/fotos/1654106608779_mini.jpg",
+            "tipo": "Snack",
+            "porcao": [
+                {
+                    "qtd": "100g",
+                    "preco": 18.19
+                }
+            ]
+        },
+        {
+            "index": 2,
+            "titulo": "Osso PetTreats Orelha Bovina Natural para Cães - 1 unidade",
+            "foto": "https://images.petz.com.br/fotos/1691515745677_mini.jpg",
+            "tipo": "PetTreats",
+            "porcao": [
+                {
+                    "qtd": "1",
+                    "preco": 7.89
+                }
+            ]
+        },
+        {
+            "index": 3,
+            "titulo": "Poste Arranhador Petz para Gatos - Cores Sortidas",
+            "foto": "https://images.petz.com.br/fotos/1608212202034_mini.jpg",
+            "tipo": "Petz",
+            "porcao": [
+                {
+                    "qtd": "1",
+                    "preco": 99.99
+                }
+            ]
+        },
+        {
+            "index": 4,
+            "titulo": "Ração Golden Special para Cães Adultos - 1kg",
+            "foto": "https://magpetchow.com.br/wp-content/uploads/2019/01/Racao-Golden-Special-Caes-Adultos-Sabor-Frango-e-Carne.png",
+            "tipo": "Golden",
+            "porcao": [
+                {
+                    "qtd": "1kg",
+                    "preco": 39.90
+                }
+            ]
+        },
+        {
+            "index": 5,
+            "titulo": "Cama Lisa Oval Sarja para Cães e Gatos Cinza",
+            "foto": "https://images.petz.com.br/fotos/1567172346477.jpg",
+            "tipo": "UrbanPuppy",
+            "porcao": [
+                {
+                    "qtd": "1",
+                    "preco": 239.99
+                }
+            ]
+        },
+        {
+            "index": 6,
+            "titulo": "Ração Golden Fórmula para Cães Adultos de Raças Pequenas - 1kg",
+            "foto": "https://images.tcdn.com.br/img/img_prod/1171570/racao_golden_formula_mini_bits_para_caes_filhotes_de_porte_pequeno_sabor_frango_e_arroz_51_1_887702218844cb01b459b1f69c13faa3.png",
+            "tipo": "Golden",
+            "porcao": [
+                {
+                    "qtd": "1kg",
+                    "preco": 29.90
+                }
+            ]
+        },
+        {
+            "index": 7,
+            "titulo": "Viveiro Chalesco Pássaros Pequeno - Cores Sortidas",
+            "foto": "https://images.petz.com.br/fotos/1617109909022_mini.jpg",
+            "tipo": "Chalesco",
+            "porcao": [
+                {
+                    "qtd": "1",
+                    "preco": 1999.99
+                }
+            ]
+        },
+        {
+            "index": 8,
+            "titulo": "Ração Golden para Gatos Castrados Frango - 1kg",
+            "foto": "https://d3ugyf2ht6aenh.cloudfront.net/stores/002/163/425/products/aconchego_golden_sache_gourmet_frango_gatos_castrados_70g_2412221-e13d7551d4f99bb95f16718858974750-640-0.webp",
+            "tipo": "GoldenGourmet",
+            "porcao": [
+                {
+                    "qtd": "1kg",
+                    "preco": 59.90
+                }
+            ]
+        }
+    ]
+}

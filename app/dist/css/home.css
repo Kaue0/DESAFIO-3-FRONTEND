@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+    padding-top: 25vh;
+    width: 20%;
+    margin: 0 10%;
+}
+
+#logo + p {
+    padding-top: 3vh;
+    font-size: 18px;
+    color: #136CB3;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+}
+
+.form-section > h2 {
+    padding: 7% 0 3%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+    color: #136CB3;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form-section > h3 {
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: #136CB3;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form-section > form {
+    width: 100%;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #136CB3;
+    padding: 2vh 3vw;
+    border-radius: 0px;
+}
+
+.form-section > form > h3 {
+    width: 100%;
+    text-align: left;
+    font-size: 32px;
+    color: #f7eff5;
+    font-weight: bold;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    text-shadow: 1px 1px 2px rgba(198, 165, 255, 0.3);
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.5vh;
+}
+
+.form-group > label {
+    font-size: 22px;
+    color: #efd2e8;
+    font-weight: bold;
+    margin-bottom: 1.5vh;
+}
+
+.form-group > input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+    padding: 0 4vw;
+    font-size: 18px;
+    font-weight: 500;
+    color: #136CB3;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 5px 2px rgba(198, 165, 255, 0.5);
+    outline: none;
+}
+
+.secao-split {
+    background-color: #f9e6b3;
+    color: #f9e6b3;
+    border-radius: 0px;
+    width: 115%;
+    height: 10vh;
+    box-sizing: border-box;
+    margin: 30px 0;
+}
+
+.form-group > select {
+    box-sizing: border-box;
+    width: 100%;
+    height: 7vh;
+    border: none;
+    border-radius: 6px;
+    padding: 0vw 1vw;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000d6;
+    background-color: white;
+    box-shadow: 2px 2px 5px 2px rgba(198, 165, 255, 0.5);
+}
+
+.form-group > button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #136CB3;
+    background-color: #f7eff5;
+    box-shadow: 2px 2px 5px 2px rgba(198, 165, 255, 0.5);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 1.5vh 0;
+    outline: none;
+}
+
+.footer-phrase {
+    padding-top: 2.5vh;
+}
+
+.footer-phrase > h2 {
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    font-size: 2rem;
+    color: #136CB3;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1vh;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+}
+
+.brand-wrapper {
+    width: 100%;
+    padding: 0 40%;
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width: 900px) {
+    
+    .form-section {
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+    }
+
+    .form-section > form {
+        padding: 2rem 1rem;
+        border-radius: 0px;
+    }
+
+    .form-group > input {
+        padding: 2rem 1.5vw;
+        box-shadow: 2px 2px 5px 1px rgba(198, 165, 255, 0.5)
+    }
+
+    .secao-split {
+        background-color: #f9e6b3;
+        color: #f9e6b3;
+        border-radius: 0px;
+        width: 110%;
+        height: 10vh;
+        box-sizing: border-box;
+        margin: 30px 0;
+    }
+
+}
